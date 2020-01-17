@@ -4,9 +4,9 @@ from ast import literal_eval as make_tuple
 
 def select(key):
     """ 
-    Reads the file data\{key} from the data directory and returns its contents
+    Reads the file data\{key} from the data directory and returns its contents.
 
-    Returns None if the file does not exist.
+    Returns file contents or None if the file does not exist.
     """
     
     pass
