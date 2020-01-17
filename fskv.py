@@ -3,12 +3,29 @@ import os
 from ast import literal_eval as make_tuple
 
 def select(key):
+    """ 
+    Reads the files data\{key} from the data directory and returns its contents
+
+    Returns None if the file does not exist.
+    """
+    
     pass
 
 def upsert(key, value):
+    """
+    Writes data\{key} with the contents of value
+
+    Returns nothing.
+    """
+    
     pass
 
 def delete(key):
+    """
+    Deletes data\{key}. Does nothing if data\{key} already exists.
+
+    Returns nothing.
+    """
     pass
 
 def execute(query):
