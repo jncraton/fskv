@@ -55,7 +55,6 @@ def execute(query):
         return select(key)
 
     if statement_type == 'delete':
-        values = re.split('values', query, flags=re.I)[-1].strip()
         key = int(query.split('=')[-1])
         return delete(key)
 
