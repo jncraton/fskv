@@ -4,7 +4,7 @@ from ast import literal_eval as make_tuple
 
 def select(key):
     """ 
-    Reads the files data\{key} from the data directory and returns its contents
+    Reads the file data\{key} from the data directory and returns its contents
 
     Returns None if the file does not exist.
     """
@@ -13,7 +13,7 @@ def select(key):
 
 def upsert(key, value):
     """
-    Writes data\{key} with the contents of value
+    Writes data\{key} with the contents of `value`
 
     Returns nothing.
     """
