@@ -22,7 +22,7 @@ def upsert(key, value):
 
 def delete(key):
     """
-    Deletes data\{key}. Does nothing if data\{key} already exists.
+    Deletes data\{key}. Does nothing if data\{key} does not exist.
 
     Returns nothing.
     """
